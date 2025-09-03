@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car-Rento Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🚗</text></svg>">
+</head>
+<body>
+    <div class="app">
+        <header class="app-header">
+            <div class="brand">
+                <span class="logo">🚗</span>
+                <div class="brand-text">
+                    <h1>Car-Rento</h1>
+                    <p class="subtitle">Hawaii Car Rentals made easy</p>
+                </div>
+            </div>
+            <div class="contact-mini">
+                <span>📞 808-289-8898</span>
+            </div>
+        </header>
+
+        <main class="chat-container">
+            <div id="chat" class="chat-window" aria-live="polite"></div>
+            <div id="summaryBar" class="summary-bar" aria-live="polite"></div>
+            <div id="suggestBar" class="suggest-bar" aria-label="Suggestions">
+                <div class="suggestions" id="suggestions"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
