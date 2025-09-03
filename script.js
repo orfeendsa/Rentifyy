@@ -28,7 +28,7 @@
       name: 'Toyota Corolla',
       type: 'Economy',
       pricePerDay: 49,
-      img: 'https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1200&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?q=80&w=1154&auto=format&fit=crop',
       desc: 'Great mileage, compact and easy to drive',
     },
     {
@@ -36,7 +36,7 @@
       name: 'Jeep Wrangler',
       type: 'SUV',
       pricePerDay: 109,
-      img: 'https://images.unsplash.com/photo-1517940310602-75f39d4ac1ad?q=80&w=1200&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1595603895326-dcd716dafacd?q=80&w=687&auto=format&fit=crop',
       desc: 'Perfect for adventures around Oahu',
     },
     {
@@ -52,7 +52,7 @@
       name: 'Chrysler Pacifica',
       type: 'Minivan',
       pricePerDay: 129,
-      img: 'https://images.unsplash.com/photo-1619762252359-97a9ef19b4b9?q=80&w=1200&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1623371857133-6d5552bbdc13?q=80&w=687&auto=format&fit=crop',
       desc: 'Spacious for families and groups',
     },
   ];
